@@ -1,0 +1,65 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "deadmanscrawler:item/testcard/test_card_handheld",
+		"1": "deadmanscrawler:item/testcard/cardbase",
+		"particle": "deadmanscrawler:item/testcard/test_card_handheld"
+	},
+	"elements": [
+		{
+			"name": "Card",
+			"from": [0, 0, 6],
+			"to": [16, 25, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 12, 6.5]},
+			"faces": {
+				"north": {"uv": [2.625, 0, 13.75, 16], "texture": "#0"},
+				"east": {"uv": [13.375, 0, 13.75, 16], "texture": "#1"},
+				"south": {"uv": [2.625, 0, 13.75, 16], "texture": "#1"},
+				"west": {"uv": [2.625, 0, 3, 16], "texture": "#1"},
+				"up": {"uv": [2.625, 0, 13.75, 0.375], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [2.625, 15.625, 13.75, 16], "rotation": 180, "texture": "#1"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 0, 0],
+			"translation": [0, -0.25, 0],
+			"scale": [0.2, 0.2, 0.2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 0, 0],
+			"translation": [0, -0.25, 0],
+			"scale": [0.2, 0.2, 0.2]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 164, 0],
+			"translation": [-1.5, 5.25, 2.5],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 164, 0],
+			"translation": [-1.5, 5.25, 2.5],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"ground": {
+			"rotation": [90, 0, 0],
+			"translation": [0, -1.25, 0],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"gui": {
+			"rotation": [-180, 0, -180],
+			"translation": [0, -2.75, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"head": {
+			"translation": [0, 8.75, -4],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"fixed": {
+			"translation": [0, -5.5, 1.25],
+			"scale": [1.25, 1.25, 1.25]
+		}
+	}
+}
